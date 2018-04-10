@@ -1,0 +1,77 @@
+#logo {
+  max-height: 60px;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#jumbo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/tattoo.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  #jumbo {
+    padding: 20px;
+  }
+}
+
+#jumbo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  #jumbo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.dark-section {
+  background-color: #cfe1f7;
+}
+
+.site-section {
+  text-align: center;
+  padding: 70px;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#welcome2 .item {
+  padding-top: 36px;
+}
+
+#welcome2 .item i {
+  font-size: 42px;
+}
+
+#welcome2 .item h2 {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#welcome2 .item p {
+  color: rgb(126, 8, 107);
+  font-family: Eater, cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ff0000;
+}
